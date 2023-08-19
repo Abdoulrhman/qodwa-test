@@ -30,7 +30,7 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          ftp-server: ftp.wasni.care
-          ftp-username: deploy@wasni.care
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.wasni.care
+          username: deploy@wasni.care
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: build/
