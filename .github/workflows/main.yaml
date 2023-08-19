@@ -33,4 +33,4 @@ jobs:
           server: ftp.wasni.care
           username: deploy@wasni.care
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: build/
+          local-dir: dist/
